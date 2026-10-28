@@ -1,0 +1,34 @@
+# Windows Instance Configuration
+
+## 1. Instance settings
+
+Platform: Microsoft Windows
+Operating system: Windows Server
+Instance name: windows-server-lab
+
+## 2. Network settings
+
+Protocol: TCP
+Port: 3389
+Service: Remote Desktop Protocol (RDP)
+
+## 3. Security settings
+
+- Allow RDP only from trusted IP addresses.
+- Do not expose remote access to everyone.
+- Keep administrator credentials private.
+
+## 4. Connection procedure
+
+1. Open the Lightsail console.
+2. Select the Windows instance.
+3. Open the Connect section.
+4. Select Connect using RDP.
+5. Verify that the Windows desktop appears.
+
+## 5. Verification
+
+Expected instance state: Running
+Expected result: Windows desktop accessible through RDP
+
+Note: These are example settings, not live server configuration.
